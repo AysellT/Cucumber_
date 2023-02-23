@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.638">
+    <testcase classname="US1005 Beymen Test" name="Kullanici beymen'de urunlerle ilgili ekleme silme gibi islemleri yapabilmeli" time="42.324">
+        <system-out>
+            <![CDATA[Given Kullanici "beymenUrl" sayfasina gider.................................passed
+And Beymen anasayfasinin acildigini kontrol eder............................passed
+And Kullanici Beymen cerezleri kabul eder...................................passed
+And Arama kutucuguna "liste" kelimesini girer ve aratir.....................passed
+Then Sonuca gore sergilenen urunlerden rastgele bir urun secer..............passed
+And Secilen urunun urun bilgisi ve tutar bilgisini txt dosyasina yazdirir...passed
+And Secilen urunu sepete ekler..............................................passed
+And Urun sayfasindaki fiyat ile sepette yer alan urunun fiyatinin dogrulugunu karsilastirir.passed
+And Adet sayisini arttirarak urun adedinin 2 oldugunu dogrular..............passed
+Then Urunu sepetten silerek sepetin bos oldugunu kontrol eder...............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
