@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.638">
-    <testcase classname="US1005 Beymen Test" name="Kullanici beymen'de urunlerle ilgili ekleme silme gibi islemleri yapabilmeli" time="42.324">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="69.728">
+    <testcase classname="US1005 Beymen Test" name="Kullanici beymen'de urunlerle ilgili ekleme silme gibi islemleri yapabilmeli" time="69.444">
         <system-out>
             <![CDATA[Given Kullanici "beymenUrl" sayfasina gider.................................passed
 And Beymen anasayfasinin acildigini kontrol eder............................passed
 And Kullanici Beymen cerezleri kabul eder...................................passed
-And Arama kutucuguna "liste" kelimesini girer ve aratir.....................passed
+And Arama kutucuguna "gomlek" kelimesini girer ve aratir....................passed
 Then Sonuca gore sergilenen urunlerden rastgele bir urun secer..............passed
 And Secilen urunun urun bilgisi ve tutar bilgisini txt dosyasina yazdirir...passed
 And Secilen urunu sepete ekler..............................................passed

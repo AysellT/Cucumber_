@@ -5,8 +5,7 @@ Feature: US1005 Beymen Test
     Given Kullanici "beymenUrl" sayfasina gider
     And Beymen anasayfasinin acildigini kontrol eder
     And Kullanici Beymen cerezleri kabul eder
-
-    And Arama kutucuguna "liste" kelimesini girer ve aratir
+    And Arama kutucuguna "gomlek" kelimesini girer ve aratir
     Then Sonuca gore sergilenen urunlerden rastgele bir urun secer
     And Secilen urunun urun bilgisi ve tutar bilgisini txt dosyasina yazdirir
     And Secilen urunu sepete ekler
