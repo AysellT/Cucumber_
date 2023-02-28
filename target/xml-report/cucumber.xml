@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="69.728">
-    <testcase classname="US1005 Beymen Test" name="Kullanici beymen'de urunlerle ilgili ekleme silme gibi islemleri yapabilmeli" time="69.444">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="36.98">
+    <testcase classname="US1006_ebayFilerTest" name="Kullanici ebay sitesinde urunlerin filter menusune erisebilmeli" time="36.694">
         <system-out>
-            <![CDATA[Given Kullanici "beymenUrl" sayfasina gider.................................passed
-And Beymen anasayfasinin acildigini kontrol eder............................passed
-And Kullanici Beymen cerezleri kabul eder...................................passed
-And Arama kutucuguna "gomlek" kelimesini girer ve aratir....................passed
-Then Sonuca gore sergilenen urunlerden rastgele bir urun secer..............passed
-And Secilen urunun urun bilgisi ve tutar bilgisini txt dosyasina yazdirir...passed
-And Secilen urunu sepete ekler..............................................passed
-And Urun sayfasindaki fiyat ile sepette yer alan urunun fiyatinin dogrulugunu karsilastirir.passed
-And Adet sayisini arttirarak urun adedinin 2 oldugunu dogrular..............passed
-Then Urunu sepetten silerek sepetin bos oldugunu kontrol eder...............passed
+            <![CDATA[Given Kullanici "ebayUrl" sayfasina gider...................................passed
+Then Kullanici AllCatagories dropdwn'undan bir "Books&Magazine" kategorisini secer.passed
+Then Kullanici Search butonuna tiklar.......................................passed
+Then Kullanici Shop by Category bolumunden "Books" secenegine tiklar........passed
+And Kullanici sayfati asagiya kaydirin AllFilter menusunun gorunur oldugunu dogrular.passed
 ]]>
         </system-out>
     </testcase>

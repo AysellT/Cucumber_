@@ -1,5 +1,5 @@
 Feature: US1005 Beymen Test
-  @wip
+
   Scenario: Kullanici beymen'de urunlerle ilgili ekleme silme gibi islemleri yapabilmeli
 
     Given Kullanici "beymenUrl" sayfasina gider
