@@ -6,7 +6,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
 
-public class hooks {
+public class Hooks {
 
     @After
     public void tearDown(Scenario scenario){
@@ -16,6 +16,7 @@ public class hooks {
             scenario.attach(screenshot, "image/png","screenshots");
         }
         Driver.closeDriver();
+
     }
 
 }
