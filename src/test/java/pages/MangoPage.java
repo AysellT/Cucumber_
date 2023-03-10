@@ -28,6 +28,40 @@ public class MangoPage {
 
 
 
+    @FindBy (xpath = "(//a[text()='Login'])[1]")
+    public WebElement buttonLogin;
+
+    @FindBy (xpath = "//*[text()='/ Register']")
+    public WebElement buttonRegister;
+
+    @FindBy (id = "first_name")
+    public WebElement textBoxFirstName;
+
+    @FindBy (xpath = "//*[text()='Sign In']")
+    public WebElement linkRegisterPageSignIn; // 'Already have an Account' yazisinin yanindaki
+
+    @FindBy (id = "policyCheck")
+    public WebElement checkBoxPolicy;
+
+    @FindBy (id = "sign_in_btn")
+    public WebElement buttonSignUp;
+
+    @FindBy (xpath = "(//span[@class='text-danger'])[1]")
+    public WebElement firstNameTextDanger;
+
+    @FindBy (xpath = "(//span[@class='text-danger'])[5]")
+    public WebElement  passwordTextDanger;
+
+
+    
+
+
+
+
+
+
+
+
 
 
 
