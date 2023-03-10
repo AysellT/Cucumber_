@@ -1,5 +1,5 @@
 Feature:US1006_ebayFilterTest
-@wip
+
   Scenario:Kullanici ebay sitesinde urunlerin filter menusune erisebilmeli
 
     Given Kullanici "ebayUrl" sayfasina gider

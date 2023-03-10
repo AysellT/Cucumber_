@@ -15,6 +15,7 @@ import org.junit.runner.RunWith;
         tags = "@wip" ,
         dryRun = false
 )
+
 public class Runner {
 
         /*
@@ -42,7 +43,6 @@ public class Runner {
                    eksik adim yoksa test passed olarak isaretler
 
                    --false secilirse, verilen tag ile isaretli olan Feature veya Scenario'lari calistirir
-
          */
 
 

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="48.133">
-    <testcase classname="US1006_ebayFilterTest" name="Kullanici ebay sitesinde urunlerin filter menusune erisebilmeli" time="47.837">
-        <system-out>
-            <![CDATA[Given Kullanici "ebayUrl" sayfasina gider...................................passed
-Then Kullanici AllCatagories dropdwn'undan bir "Camera&Photo" kategorisini secer.passed
-Then Kullanici Search butonuna tiklar.......................................passed
-Then Kullanici Shop by Category bolumunden "" secenegine tiklar.............passed
-And Kullanici sayfati asagiya kaydirin AllFilter menusunun gorunur oldugunu dogrular.passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.354">
+    <testcase classname="mango shoping test" name="testmango" time="21.035">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given Kullanici "mangoUrl" sayfasina gider..................................passed
+Then kadin butona gelir ve acilan kismin gorunur oldugunu test eder.........failed
+Then urun secip yan kisimda pop up olarak sepete eklendigini dogrular.......skipped
+Then sepeti goruntule butonuna tiklar.......................................skipped
+Then sepetteki tutar ile sectigi tutarın esit oldugunu dogrular.............skipped
+Then fiyat bilgisinin text ini yazdirir.....................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepdefinitions.MangoStepdefinition.kadinButonaGelirVeAcilanKisminGorunurOldugunuTestEder(MangoStepdefinition.java:18)
+	at ✽.kadin butona gelir ve acilan kismin gorunur oldugunu test eder.(file:///Users/gamlibaykus/Desktop/QA/Cucumber_/src/test/resources/features/US1007_MagoTest.feature:6)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
