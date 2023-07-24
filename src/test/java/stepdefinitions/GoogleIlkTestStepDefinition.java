@@ -41,7 +41,7 @@ public class GoogleIlkTestStepDefinition{
 
     @Then("Arama Kutusuna Dollar to Euro karsilastirma yapmak istedigi para birimlerini girer")
     public void aramaKutusunaDollarToEuroKarsilastirmaYapmakIstedigiParaBirimleriniGirer() {
-        googlePage.googleAramaKutusu.sendKeys("Dollar to Euro"+ Keys.ENTER);
+        googlePage.googleAramaKutusu.sendKeys("Dollar to Euro");
 
     }
 }

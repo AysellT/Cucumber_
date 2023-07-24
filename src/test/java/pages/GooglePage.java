@@ -11,7 +11,7 @@ public class GooglePage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy (xpath = "//input[@class='gLFyf']")
+    @FindBy (xpath = "//textarea[@id='input']")
     public WebElement googleAramaKutusu;
 
     @FindBy (xpath = "//span[@class='DFlfde SwHCTb']")
